@@ -1,1 +1,53 @@
-<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n    <title>Résidence Aylane</title>\n    <link rel="stylesheet" href="styles.css">\n    <script src="script.js" defer></script>\n</head>\n<body>\n    <header class="hero">\n        <h1>Welcome to Résidence Aylane</h1>\n        <p>Your home away from home.</p>\n    </header>\n    <section class="about">\n        <h2>About Us</h2>\n        <p>Located in the heart of the city, Résidence Aylane offers comfort and serenity.</p>\n    </section>\n    <section class="gallery">\n        <h2>Gallery</h2>\n        <img src="image1.jpg" alt="Image 1">\n        <img src="image2.jpg" alt="Image 2">\n        <img src="image3.jpg" alt="Image 3">\n    </section>\n    <section class="tarifs">\n        <h2>Tarifs</h2>\n        <p>Check our prices and enjoy great offers!</p>\n    </section>\n    <section class="location">\n        <h2>Location</h2>\n        <p>We are located at the best spot in town.</p>\n    </section>\n    <section class="contact">\n        <h2>Contact Us</h2>\n        <p>Email: contact@residenceaylane.com</p>\n    </section>\n    <footer>\n        <p>&copy; 2026 Résidence Aylane. All rights reserved.</p>\n    </footer>\n</body>\n</html>\n
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résidence Aylane</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Résidence Aylane</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Résidence Aylane offers luxury accommodations and exceptional services.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Room Service</li>
+            <li>Spa & Wellness</li>
+            <li>Restaurant</li>
+        </ul>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2026 Résidence Aylane</p>
+    </footer>
+</body>
+</html>
