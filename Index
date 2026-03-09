@@ -55,7 +55,7 @@
   .img-main { width: 80%; height: 85%; top: 0; right: 0; }
   .img-accent { width: 55%; height: 50%; bottom: 0; left: 0; border: 3px solid var(--dark2); }
   .gallery-section { background: var(--dark2); }
-  .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: 280px 200px; gap: 3px; margin-top: 3rem; }
+  .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: 280px 200px 200px 200px; gap: 3px; margin-top: 3rem; }
   .gallery-item { overflow: hidden; position: relative; cursor: pointer; }
   .gallery-item:first-child { grid-column: span 2; grid-row: span 2; }
   .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s ease; filter: brightness(0.9); }
@@ -225,6 +225,12 @@
       <div class="gallery-item"><img src="https://monsieurdaniogo-dev.github.io/Chezaylane/IMG_1900.jpeg" alt="Salle de bain"><div class="gallery-overlay"><span class="gallery-caption" data-fr>Salle de Bain</span><span class="gallery-caption" data-en>Bathroom</span></div></div>
       <div class="gallery-item"><img src="https://monsieurdaniogo-dev.github.io/Chezaylane/IMG_1747.jpeg" alt="Cuisine"><div class="gallery-overlay"><span class="gallery-caption" data-fr>Espace Cuisine</span><span class="gallery-caption" data-en>Kitchen Area</span></div></div>
       <div class="gallery-item"><img src="https://monsieurdaniogo-dev.github.io/Chezaylane/IMG_1748.jpeg" alt="Réfrigérateur"><div class="gallery-overlay"><span class="gallery-caption" data-fr>Équipements</span><span class="gallery-caption" data-en>Appliances</span></div></div>
+      <div class="gallery-item"><img src="https://monsieurdaniogo-dev.github.io/Chezaylane/IMG_2076.HEIC" alt="Vue intérieure"><div class="gallery-overlay"><span class="gallery-caption" data-fr>Intérieur</span><span class="gallery-caption" data-en>Interior</span></div></div>
+      <div class="gallery-item"><img src="https://monsieurdaniogo-dev.github.io/Chezaylane/IMG_2084.HEIC" alt="Vue intérieure 2"><div class="gallery-overlay"><span class="gallery-caption" data-fr>Ambiance</span><span class="gallery-caption" data-en>Ambiance</span></div></div>
+      <div class="gallery-item"><img src="https://monsieurdaniogo-dev.github.io/Chezaylane/IMG_2091.HEIC" alt="Vue intérieure 3"><div class="gallery-overlay"><span class="gallery-caption" data-fr>Espace Séjour</span><span class="gallery-caption" data-en>Living Space</span></div></div>
+      <div class="gallery-item"><img src="https://monsieurdaniogo-dev.github.io/Chezaylane/IMG_2096.HEIC" alt="Vue intérieure 4"><div class="gallery-overlay"><span class="gallery-caption" data-fr>Décoration</span><span class="gallery-caption" data-en>Décor</span></div></div>
+      <div class="gallery-item"><img src="https://monsieurdaniogo-dev.github.io/Chezaylane/IMG_2115.HEIC" alt="Vue intérieure 5"><div class="gallery-overlay"><span class="gallery-caption" data-fr>Confort</span><span class="gallery-caption" data-en>Comfort</span></div></div>
+      <div class="gallery-item"><img src="https://monsieurdaniogo-dev.github.io/Chezaylane/IMG_2117.HEIC" alt="Vue intérieure 6"><div class="gallery-overlay"><span class="gallery-caption" data-fr>Vue Générale</span><span class="gallery-caption" data-en>General View</span></div></div>
     </div>
   </div>
 </section>
